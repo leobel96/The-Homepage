@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+  height: 75vh;
+  margin-top: 18vh;
+}
+
+#logo {
+  height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+}
+
+#search {
+  border: none;
+  font-size: 5rem;
+  align-self: center;
+  outline: none;
+  height: 50%;
+  text-align: center;
+  padding: 0;
+  caret-color: #acacac;
+  width: 100%;
+  background-color: transparent;
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0.6; /* Firefox */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #logo {
+    width: 90%;
+  }
+  #search {
+    font-size: 3rem;
+  }
+}
+
+.dark::placeholder {
+  color: whitesmoke;
+  caret-color: whitesmoke;
+}
+
+#info-svg {
+  position: absolute;
+  font-size: xx-large;
+  color: #80cbc4;
+  bottom: 5vh;
+  left: 5vh;
+  opacity: 0.5;
+}
+
+#info-svg:hover {
+  opacity: 1;
+}

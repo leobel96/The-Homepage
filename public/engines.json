@@ -1,0 +1,120 @@
+{
+  "engines": [
+    
+    {
+      "name": "google",
+      "url": "https://www.google.com/search?q={q}",
+      "logo": "google.svg"
+    },
+    {
+      "name": "amazon",
+      "url": "https://www.amazon.{loc}/s?k={q}",
+      "logo": "amazon.svg"
+    },
+    {
+      "name": "bing",
+      "url": "https://www.bing.com/search?q={q}",
+      "logo": "bing.svg"
+    },
+    {
+      "name": "duckduckgo",
+      "url": "https://duckduckgo.com/?q={q}",
+      "logo": "duckduckgo.svg"
+    },
+    {
+      "name": "ebay",
+      "url": "https://www.ebay.{loc}/sch/i.html?_nkw={q}",
+      "logo": "ebay.svg"
+    },
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/search/top?q={q}",
+      "logo": "facebook.svg"
+    },
+    {
+      "name": "fandom",
+      "url": "https://www.fandom.com/?s={q}",
+      "logo": "fandom.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/search?q={q}",
+      "logo": "github.svg"
+    },
+    {
+      "name": "gmail",
+      "url": "https://mail.google.com/mail/u/0/#search/{q}",
+      "logo": "gmail.svg"
+    },
+    {
+      "name": "imdb",
+      "url": "https://www.imdb.com/find?q={q}",
+      "logo": "imdb.svg"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/{q}/",
+      "logo": "instagram.svg"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/search/results/all/?keywords={q}",
+      "logo": "linkedin.svg"
+    },
+    {
+      "name": "pinterest",
+      "url": "https://www.pinterest.com/search/pins/?q={q}",
+      "logo": "pinterest.svg"
+    },
+    {
+      "name": "prime video",
+      "url": "https://www.primevideo.com/search?phrase={q}",
+      "logo": "prime-video.svg"
+    },
+    {
+      "name": "reddit",
+      "url": "https://www.reddit.com/search/?q={q}",
+      "logo": "reddit.svg"
+    },
+    {
+      "name": "spotify",
+      "url": "https://open.spotify.com/search/{q}",
+      "logo": "spotify.svg"
+    },
+    {
+      "name": "stack overflow",
+      "url": "https://stackoverflow.com/search?q={q}",
+      "logo": "stack-overflow.svg"
+    },
+    {
+      "name": "tiktok",
+      "url": "https://www.tiktok.com/tag/{q}",
+      "logo": "tiktok.svg"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/search?q={q}",
+      "logo": "twitter.svg"
+    },
+    {
+      "name": "wikipedia",
+      "url": "https://{loc}.wikipedia.org/wiki/{q}",
+      "logo": "wikipedia.svg"
+    },
+    {
+      "name": "yahoo",
+      "url": "https://{loc}.search.yahoo.com/search?p={q}",
+      "logo": "yahoo.svg"
+    },
+    {
+      "name": "yelp",
+      "url": "https://www.yelp.it/search?find_desc={q}",
+      "logo": "yelp.svg"
+    },
+    {
+      "name": "youtube",
+      "url": "https://www.youtube.com/results?search_query={q}",
+      "logo": "youtube.svg"
+    }
+  ]
+}
