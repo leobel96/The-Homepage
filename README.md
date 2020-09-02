@@ -7,7 +7,7 @@ A simple single-page website thought to be set as a browser homepage.
 - Possibility to search on more than 22 websites
 - Automatic dark mode (following your system's mode)
 - Random font each time page is reloaded (who wants always the same identical homepage each time?)
-- Random font color (only in ligth mode)
+- Random font color (only in light mode)
 - Clean UI (not a feature and pretty subjective, I know 😉)
 - Responsive
 
@@ -16,6 +16,8 @@ A simple single-page website thought to be set as a browser homepage.
 To select the website you want to search on, you simply have to write its initials in the search bar. Once its logo appears, you only have to write a space followed by what you want to search and press ENTER; Bob's your uncle.
 
 By default Google search is used and it is used also when no match is found for the initials inserted (meaning that probably you are already writing your search query).
+
+To set this website as new tab page in Chrome, you have to use an extension like [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna).
 
 ### Example
 
