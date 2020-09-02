@@ -1,4 +1,10 @@
-![The Homepage](resources/logo.svg)
+<p align="center">
+  <img
+    alt="Logo"
+    src="resources/logo.svg"
+    width="800"
+  />
+</p>
 
 A simple single-page website thought to be set as a browser homepage.
 
