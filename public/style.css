@@ -16,6 +16,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
+  font-family: monospace;
+  font-size: 2rem;
 }
 
 #search {
