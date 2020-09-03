@@ -147,7 +147,8 @@ function resizeText () {
 }
 
 function keyPressed (ev) {
-  const values = searchBar.value
+  // Replace multiple spaces with a single space
+  const values = searchBar.value.replace(/  +/g, ' ')
   const valuesArray = values.split(' ')
   if (ev.key === 'Enter') {
     searchIt(valuesArray)
