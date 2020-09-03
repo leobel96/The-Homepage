@@ -27,7 +27,9 @@ body {
   text-align: center;
   padding: 0;
   caret-color: #acacac;
-  width: 100%;
+  width: 50%;
+  min-width: 6ch;
+  max-width: 100%;
   background-color: transparent;
   color: whitesmoke;
   opacity: 0.8;
