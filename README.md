@@ -19,41 +19,74 @@ A simple single-page website thought to be set as a browser homepage.
 
 ## OK but ... how does it work?
 
-To select the website you want to search on, you simply have to write its initials in the search bar. Once its logo appears, you only have to write a space followed by what you want to search and press ENTER; Bob's your uncle.
+`website [option] query`
+
+1. Write website initials (website's logo will appear)
+2. Optionally write website's option initials (option's name will appear)
+3. Write search query
+4. Press ENTER
 
 By default Google search is used and it is used also when no match is found for the initials inserted (meaning that probably you are already writing your search query).
 
 To set this website as new tab page in Chrome, you have to use an extension like [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna).
 
-### Example
+### Examples
 
 `gi the homepage` will search `the homepage` on GitHub
 
+`gi us leobel96` will search `leobel96` as user on GitHub
+
 ## Websites list
 
-- google
-- amazon
-- bing
-- duckduckgo
-- ebay
-- facebook
-- fandom
-- github
-- gmail
-- imdb
-- instagram
-- linkedin
-- pinterest
-- prime video
-- reddit
-- spotify
-- stack overflow
-- tiktok (tags)
-- twitter
-- wikipedia
-- yahoo
-- yelp
-- youtube
+* google
+  - images
+* amazon
+* bing
+* duckduckgo
+* ebay
+* facebook
+  - people
+  - marketplace
+  - pages
+  - groups
+* fandom
+* github
+  - repositories
+  - users
+* gmail
+  - from
+  - to
+  - object
+* imdb
+  - titles
+  - tv-episodes
+  - celebs
+* instagram
+  - tag
+  - person
+* linkedin
+  - people
+  - jobs
+  - companies
+* pinterest
+* prime-video
+* reddit
+  - communities-and-users
+  - posts
+* spotify
+  - tracks
+  - artists
+  - albums
+  - playlists
+* stack-overflow
+* tiktok
+  - tag
+  - person
+* twitter
+* wikipedia
+* yahoo
+* yelp
+* youtube
 
 ## Disclaimer
 
