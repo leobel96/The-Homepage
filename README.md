@@ -1,7 +1,7 @@
 <p align="center">
   <img
     alt="Logo"
-    src="resources/logo.svg"
+    src="public/resources/logo.svg"
     width="800"
   />
 </p>
