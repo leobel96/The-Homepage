@@ -1,0 +1,241 @@
+[
+    {
+        "name": "google",
+        "url": "https://www.google{domain}/search?q={q}",
+        "logo": "google.svg",
+        "options": [
+            {
+                "name": "images",
+                "url": "https://www.google{domain}/search?tbm=isch&q={q}"
+            }
+        ]
+    },
+    {
+        "name": "amazon",
+        "url": "https://www.amazon{domain}/s?k={q}",
+        "logo": "amazon.svg"
+    },
+    {
+        "name": "bing",
+        "url": "https://www.bing{domain}/search?q={q}",
+        "logo": "bing.svg"
+    },
+    {
+        "name": "duckduckgo",
+        "url": "https://duckduckgo.com/?q={q}",
+        "logo": "duckduckgo.svg"
+    },
+    {
+        "name": "ebay",
+        "url": "https://www.ebay{domain}/sch/i.html?_nkw={q}",
+        "logo": "ebay.svg"
+    },
+    {
+        "name": "facebook",
+        "url": "https://www.facebook.com/search/top?q={q}",
+        "logo": "facebook.svg",
+        "options": [
+            {
+                "name": "people",
+                "url": "https://www.facebook.com/search/people/?q={q}"
+            },
+            {
+                "name": "marketplace",
+                "url": "https://www.facebook.com/marketplace/search?q={q}"
+            },
+            {
+                "name": "pages",
+                "url": "https://www.facebook.com/search/pages/?q={q}"
+            },
+            {
+                "name": "groups",
+                "url": "https://www.facebook.com/search/groups/?q={q}"
+            }
+        ]
+    },
+    {
+        "name": "fandom",
+        "url": "https://www.fandom.com/?s={q}",
+        "logo": "fandom.svg"
+    },
+    {
+        "name": "github",
+        "url": "https://github.com/search?q={q}",
+        "logo": "github.svg",
+        "options": [
+            {
+                "name": "repositories",
+                "url": "https://github.com/search?q={q}&type=Repositories"
+            },
+            {
+                "name": "users",
+                "url": "https://github.com/search?q={q}&type=Users"
+            }
+        ]
+    },
+    {
+        "name": "gmail",
+        "url": "https://mail.google.com/mail/u/0/#search/{q}",
+        "logo": "gmail.svg",
+        "options": [
+            {
+                "name": "from",
+                "url": "https://mail.google.com/mail/u/0/#advanced-search/from={q}"
+            },
+            {
+                "name": "to",
+                "url": "https://mail.google.com/mail/u/0/#advanced-search/to={q}"
+            },
+            {
+                "name": "object",
+                "url": "https://mail.google.com/mail/u/0/#advanced-search/object={q}"
+            }
+        ]
+    },
+    {
+        "name": "imdb",
+        "url": "https://www.imdb.com/find?q={q}",
+        "logo": "imdb.svg",
+        "options": [
+            {
+                "name": "titles",
+                "url": "https://www.imdb.com/find?s=tt&q={q}"
+            },
+            {
+                "name": "tv-episodes",
+                "url": "https://www.imdb.com/find?s=ep&q={q}"
+            },
+            {
+                "name": "celebs",
+                "url": "https://www.imdb.com/find?s=nm&q={q}"
+            }
+        ]
+    },
+    {
+        "name": "instagram",
+        "url": "https://www.instagram.com/{q}",
+        "logo": "instagram.svg",
+        "options": [
+            {
+                "name": "tag",
+                "url": "https://www.instagram.com/explore/tags/{q}"
+            },
+            {
+                "name": "person",
+                "url": "https://www.instagram.com/{q}"
+            }
+        ]
+    },
+    {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/search/results/all/?keywords={q}",
+        "logo": "linkedin.svg",
+        "options": [
+            {
+                "name": "people",
+                "url": "https://www.linkedin.com/search/results/people/?keywords={q}"
+            },
+            {
+                "name": "jobs",
+                "url": "https://www.linkedin.com/jobs/search/?keywords={q}"
+            },
+            {
+                "name": "companies",
+                "url": "https://www.linkedin.com/search/results/companies/?keywords={q}"
+            }
+        ]
+    },
+    {
+        "name": "pinterest",
+        "url": "https://www.pinterest.com/search/pins/?q={q}",
+        "logo": "pinterest.svg"
+    },
+    {
+        "name": "prime-video",
+        "url": "https://www.primevideo.com/search?phrase={q}",
+        "logo": "prime-video.svg"
+    },
+    {
+        "name": "reddit",
+        "url": "https://www.reddit.com/search/?q={q}",
+        "logo": "reddit.svg",
+        "options": [
+            {
+                "name": "communities-and-users",
+                "url": "https://www.reddit.com/search/?q={q}&type=sr%2Cuser"
+            },
+            {
+                "name": "posts",
+                "url": "https://www.reddit.com/search/?q={q}&type=link"
+            }
+        ]
+    },
+    {
+        "name": "spotify",
+        "url": "https://open.spotify.com/search/{q}",
+        "logo": "spotify.svg",
+        "options": [
+            {
+                "name": "tracks",
+                "url": "https://open.spotify.com/search/{q}/tracks"
+            },
+            {
+                "name": "artists",
+                "url": "https://open.spotify.com/search/{q}/artists"
+            },
+            {
+                "name": "albums",
+                "url": "https://open.spotify.com/search/{q}/albums"
+            },
+            {
+                "name": "playlists",
+                "url": "https://open.spotify.com/search/{q}/playlists"
+            }
+        ]
+    },
+    {
+        "name": "stack-overflow",
+        "url": "https://stackoverflow.com/search?q={q}",
+        "logo": "stack-overflow.svg"
+    },
+    {
+        "name": "tiktok",
+        "url": "https://www.tiktok.com/tag/{q}",
+        "logo": "tiktok.svg",
+        "options": [
+            {
+                "name": "tag",
+                "url": "https://www.tiktok.com/tag/{q}"
+            },
+            {
+                "name": "person",
+                "url": "https://www.tiktok.com/@{q}"
+            }
+        ]
+    },
+    {
+        "name": "twitter",
+        "url": "https://twitter.com/search?q={q}",
+        "logo": "twitter.svg"
+    },
+    {
+        "name": "wikipedia",
+        "url": "https://{domain}.wikipedia.org/wiki/{q}",
+        "logo": "wikipedia.svg"
+    },
+    {
+        "name": "yahoo",
+        "url": "https://{domain}.search.yahoo.com/search?p={q}",
+        "logo": "yahoo.svg"
+    },
+    {
+        "name": "yelp",
+        "url": "https://www.yelp.com/search?find_desc={q}",
+        "logo": "yelp.svg"
+    },
+    {
+        "name": "youtube",
+        "url": "https://www.youtube{domain}/results?search_query={q}",
+        "logo": "youtube.svg"
+    }
+]

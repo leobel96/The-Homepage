@@ -6,14 +6,15 @@
   />
 </p>
 
-A simple single-page website thought to be set as a browser homepage.
+A simple single-page React web app thought to be set as a browser homepage.
 
 ## Features
 
 - Possibility to search on more than 22 websites
+- Possibility to use filters (aka options)
 - Automatic dark mode (following your system's mode)
-- Random font each time page is reloaded (who wants always the same identical homepage each time?)
-- Random font color (only in light mode)
+- Possibility to use a specific domain (.com, .co.uk, ...) if the search engine supports it (it can be set in the settings)
+- Random font each time page is reloaded (who wants the same identical homepage each time?)
 - Clean UI (not a feature and pretty subjective, I know 😉)
 - Responsive
 
