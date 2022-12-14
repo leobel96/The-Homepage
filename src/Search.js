@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
-import engines from './engines.json'
+import engines from './json/engines.json'
 
 const Input = styled.input`
   display: block;

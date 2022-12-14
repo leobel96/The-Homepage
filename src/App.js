@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import './App.css'
-import fonts from './fonts.json'
+import fonts from './json/fonts.json'
 import Info from './Info'
 import Logo from './Logo'
 import Search from './Search'

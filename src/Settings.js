@@ -2,7 +2,7 @@ import { Icon } from '@iconify-icon/react'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled, { withTheme } from 'styled-components'
-import ccTLD from './ccTLD.json'
+import ccTLD from './json/ccTLD.json'
 
 const Open = styled.a`
   position: absolute;
